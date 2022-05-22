@@ -71,3 +71,27 @@ h1{
     text-align: center;
     font-weight: bold;
 }
+.main-photo img{
+    border: 4px solid #fd6500;
+    border-radius: 15px;
+}
+
+/*main content*/
+.content{
+    align-items: center;
+}
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #fd6500;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Quotation Part */
