@@ -27,9 +27,47 @@ body {
 }
 .right-links a{
     text-decoration: none;
-    color: #fd6500;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*hero part*/
+.main{
+    display:flex;
+    background-color: #000000;
+    color: #f5f5f5;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+.intro{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.intro p{
+    font-size: 18px;
+    opacity: 0.7;
+}
+.main button{
+    Display:block;
+    background: #fd6500;
+    color: #000000;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
