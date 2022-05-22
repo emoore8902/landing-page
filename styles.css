@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header part*/
+
+.header{
+    display:flex;
+    background-color: #000000;
+    color: #fd6500;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+.logo img{
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+.right-links{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+.right-links a{
+    text-decoration: none;
+    color: #fd6500;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
